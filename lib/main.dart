@@ -57,14 +57,14 @@ class _MyHomePageState extends State<MyHomePage> {
                         Padding(
                           padding: EdgeInsets.symmetric(vertical: 16),
                           child: Text(
-                            "** ℃",
+                            '** ℃',
                             style: TextStyle(color: Colors.blue),
                           ),
                         ),
                         Padding(
                           padding: EdgeInsets.symmetric(vertical: 16),
                           child: Text(
-                            "** ℃",
+                            '** ℃',
                             style: TextStyle(color: Colors.red),
                           ),
                         )
@@ -84,18 +84,12 @@ class _MyHomePageState extends State<MyHomePage> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         TextButton(
-                          onPressed: () => null,
-                          child: const Text(
-                            "Close",
-                            style: TextStyle(fontWeight: FontWeight.bold),
-                          ),
+                          onPressed: () {},
+                          child: const Text('Close'),
                         ),
                         TextButton(
-                          onPressed: () => null,
-                          child: const Text(
-                            "Reload",
-                            style: TextStyle(fontWeight: FontWeight.bold),
-                          ),
+                          onPressed: () {},
+                          child: const Text('Reload'),
                         ),
                       ],
                     ),
